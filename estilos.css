@@ -1,0 +1,8 @@
+body {
+  background-color: #ccc; /* Fondo gris */
+}
+
+#imagen {
+  width: 400px; /* Tamaño inicial */
+  transition: all 0.5s; /* Transición suave */
+}

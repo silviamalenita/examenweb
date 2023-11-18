@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Nueva</title>
+
+  <!-- Incluir Modernizr -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+  <!-- Incluir jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <!-- Estilo CSS -->
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  <!-- Icono de validación HTML -->
+  <a href="https://validator.w3.org/check?uri=referer">
+    <img src="https://www.w3.org/Icons/valid-html5.svg" alt="Valid HTML5" height="31" width="88">
+  </a>
+  
+</head>
+<body>
+  <h1>Bienvenido a la Nueva Página</h1>
+  <img id="imagen" src="nuevo.png" alt="Nueva Imagen">
+  <script>
+    // jQuery para cambiar tamaño y rotar la imagen
+    $(document).ready(function(){
+      $("#imagen").hover(function(){
+        $(this).css({"width": "400px", "height": "auto", "transform": "rotate(90deg)", "transition": "all 0.5s"});
+      });
+    });
+  </script>
+
+  <!-- Icono de validación CSS -->
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="31" width="88">
+  </a>
+</body>
+</html>
